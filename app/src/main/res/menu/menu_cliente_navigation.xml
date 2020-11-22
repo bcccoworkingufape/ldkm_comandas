@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--
+    <item
+        android:id="@+id/navigation_clientes"
+        android:icon="@drawable/ic_person_foreground"
+        android:iconTint="@color/colorBranco"
+        android:title="Clientes"
+        android:titleCondensed="Cli"
+        app:showAsAction="collapseActionView" />
+-->
+    <item
+        android:id="@+id/navigation_editar_cliente"
+        android:icon="@drawable/ic_icone_clientes_branco"
+        android:title="Editar Cliente"
+        android:titleCondensed="EditCli"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/navigation_novo_cliente"
+        android:icon="@drawable/ic_icone_comandas_branco"
+        android:title="Clientes"
+        android:titleCondensed="NovCli"
+        app:showAsAction="collapseActionView" />
+
+</menu>

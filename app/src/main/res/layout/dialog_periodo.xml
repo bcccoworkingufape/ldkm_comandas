@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded_box"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp">
+
+        <TextView
+            android:id="@+id/textViewNomeProd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:text="Filtra lista pelo intervalo"
+            android:textColor="@color/colorTexto"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/imageButtonClose"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButtonClose"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="30dp"
+            android:background="#00FFFFFF"
+            android:tint="#C2C2C2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textViewNomeProd"
+            app:srcCompat="@drawable/ic_close_black_24dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="@color/colorTexto"
+            android:longClickable="true"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:text="De:"
+            android:textColor="@color/colorTexto" />
+
+        <EditText
+            android:id="@+id/editTextDateIni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:ems="10"
+            android:hint="Ex: 10/05/2020"
+            android:inputType="date"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="61dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:text="Até:"
+            android:textColor="@color/colorTexto" />
+
+        <EditText
+            android:id="@+id/editTextDateFin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="Ex: 20/06/2020"
+            android:inputType="date" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp">
+
+        <Button
+            android:id="@+id/buttonLimpar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/button_shape_white"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:text="Limpar"
+            android:textColor="@android:color/darker_gray"
+            android:stateListAnimator="@null"
+            android:elevation="5dp" />
+
+        <Button
+            android:id="@+id/buttonFiltrar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/button_shape_green"
+            android:drawableStart="@drawable/ic_logo_filtro_branco"
+            android:drawablePadding="5dp"
+            android:elevation="5dp"
+            android:paddingStart="25dp"
+            android:paddingEnd="25dp"
+            android:stateListAnimator="@null"
+            android:text="Filtrar"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</LinearLayout>

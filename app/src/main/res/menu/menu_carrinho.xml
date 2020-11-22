@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_ola"
+        android:checkable="false"
+        android:enabled="false"
+        android:orderInCategory="100"
+        android:title="Olá!"
+
+        app:showAsAction="ifRoom">
+
+    </item>
+    <item
+        android:id="@+id/action_carrinho"
+        android:title="Meu carrinho"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_icone_carrinho_de_compra_branco"
+        app:showAsAction="always"/>
+
+
+
+
+</menu>

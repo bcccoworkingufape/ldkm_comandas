@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Ludke</string>
+    <string name="title_activity_menu">LUDKE</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Olá, usuário!</string>
+    <string name="nav_header_subtitle">ludke</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Configurações/Sair</string>
+
+    <string name="menu_home">Vendas</string>
+    <string name="menu_cliente">Cliente</string>
+    <string name="menu_produto">Produto</string>
+    <string name="menu_relatorio">Relatório</string>
+    <string name="menu_share">Compartilhar</string>
+    <string name="menu_send">Enviar</string>
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="sair">"Sair"</string>
+    <string name="comanda_n">Comanda nº 0</string>
+    <string name="sobre">Sobre</string>
+    <string name="bcc_coworking">BCC - Coworking</string>
+</resources>

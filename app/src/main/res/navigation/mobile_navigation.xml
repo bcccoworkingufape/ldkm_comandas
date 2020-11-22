@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.gps.ludke.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_cliente"
+        android:name="com.gps.ludke.ui.cliente.ClienteDadosFragment"
+        android:label="@string/menu_cliente"
+        tools:layout="@layout/fragment_cliente_dados" />
+
+    <fragment
+        android:id="@+id/nav_produto"
+        android:name="com.gps.ludke.ui.produto.ProdutoFragment"
+        android:label="@string/menu_produto"
+        tools:layout="@layout/fragment_produto" />
+
+    <fragment
+        android:id="@+id/nav_relatorios"
+        android:name="com.gps.ludke.ui.relatorio.RelatorioFragment"
+        android:label="@string/menu_relatorio"
+        tools:layout="@layout/fragment_relatorios" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.gps.ludke.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.gps.ludke.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+
+    <fragment
+        android:id="@+id/nav_sair"
+        android:name="com.gps.ludke.ui.produto.ProdutoFragment"
+        android:label="@string/sair"
+        tools:layout="@layout/fragment_produto" />
+</navigation>

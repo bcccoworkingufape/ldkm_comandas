@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_venda"
+        android:icon="@drawable/ic_icone_produtos_branco"
+        android:title="Venda"
+
+        android:titleCondensed="Vend"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/navigation_relatorio"
+        android:icon="@drawable/ic_icone_comandas_branco"
+        android:title="Relatórios"
+        android:titleCondensed="Rel"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/navigation_editar_venda"
+        android:icon="@mipmap/ic_editar_venda_foreground"
+        android:iconTint="@color/colorBranco"
+        android:title="Editar Venda"
+        android:titleCondensed="EditVend"
+        app:showAsAction="collapseActionView" />
+
+
+</menu>

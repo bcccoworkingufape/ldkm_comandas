@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1094711799333",
+    "firebase_url": "https://ludke-5f35e.firebaseio.com",
+    "project_id": "ludke-5f35e",
+    "storage_bucket": "ludke-5f35e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094711799333:android:6550406ea5d66aa6cd19cc",
+        "android_client_info": {
+          "package_name": "com.gps.ludke"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094711799333-bdm8jd1jv4dll3rmp025hjs5fjl01ihn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_wa8GJyhix_nDlUmsgBMpUoIdYO4lWqY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094711799333-bdm8jd1jv4dll3rmp025hjs5fjl01ihn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
